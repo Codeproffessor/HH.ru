@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Ilya Viktarau" />
+	<meta name="description" content="form" />
+	<link rel="stylesheet" href="css/main.css">
+	<title>Belpromstandart Rafael</title>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="loaderArea">
+		<div class="loader"></div>
+	</div>
+
+	<div class="dflex sign-up-wrap">
+		<div class="dflex dflex-jc-fe dflex-cl tittle dflex-ai-fs">
+			<h1>Sign up</h1>
+		</div>
+		<div class="dflex dflex-cl dflex-jc-sb sign-content container">
+			<div class="top-content container dflex dflex-cl dflex-ai-fs">
+				<h2>New user?</h2>
+				<p>Use the form below to create your account.</p>
+			</div>
+			<form class="form__enter-content container dgrid">
+				<div id="fn-inp" class="form__item input-field-content dflex-cl dflex dflex-ai-fs ">
+					<label for="first-name">First Name</label>
+					<input id="first-name" type="text" maxlength="30" autocomplete="off" onclick="addInputStyle('first-name')"
+						onblur="deleteInputStyle('first-name')">
+				</div>
+				<div id="ln-inp" class="form__item input-field-content dflex-cl dflex dflex-ai-fs ">
+					<label for="last-name">Last Name</label>
+					<input id="last-name" type="text" maxlength="30" autocomplete="off" onclick="addInputStyle('last-name')"
+						onblur="deleteInputStyle('last-name')">
+				</div>
+				<div id="nat-inp" class=" form__item input-field-content dflex-cl dflex dflex-ai-fs ">
+					<label for="nationality">Nationality</label>
+					<select id="nationality" class="form__item" onclick="addInputStyle('nationality')"
+						onblur="deleteInputStyle('nationality')">
+						<option>American</option>
+						<option>Argentina</option>
+						<option>Australia</option>
+						<option>Austria</option>
+						<option>Armenia</option>
+						<option>Bangladesh</option>
+						<option>Belgium</option>
+						<option>Bolivia</option>
+						<option>Botswana</option>
+						<option>Brazil</option>
+						<option>Bulgaria</option>
+						<option>Cambodia</option>
+						<option>Cameroon</option>
+						<option>Canada</option>
+						<option>Chile</option>
+						<option>China</option>
+						<option>Colombia</option>
+						<option>Costa Rica</option>
+						<option>Croatia</option>
+						<option>Cuba</option>
+						<option>Czech Republic</option>
+						<option>Denmark</option>
+						<option>Dominican Republic</option>
+						<option>Ecuador</option>
+						<option>Egypt</option>
+						<option>El Salvador</option>
+						<option>England</option>
+						<option>Estonia</option>
+						<option>Ethiopia</option>
+						<option>Fiji</option>
+						<option>Finland</option>
+						<option>France</option>
+					</select>
+				</div>
+				<div id="eml-inp" class="form__item input-field-content dflex-cl dflex dflex-ai-fs ">
+					<label for="e-mail">E-mail</label>
+					<input class="eml-inp__big-tick" id="e-mail" type="text" required
+						pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="&nbsp;" autocomplete="off"
+						onclick="addInputStyle('e-mail')" onblur="deleteInputStyle('e-mail')">
+				</div>
+				<div id="dob-inp" class="form__item input-field-content dflex dflex-cl dflex-ai-fs ">
+					<label>Date of Birth</label>
+					<div class="dflex dflex-jc-sb" id="date">
+						<select class="form__item" name="day" id="day" onclick="addInputStyle('day')"
+							onblur="deleteInputStyle('day')">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+						</select>
+						<select class="form__item" name="month" id="month" onclick="addInputStyle('month')"
+							onblur="deleteInputStyle('month')">
+							<option>January</option>
+							<option>February</option>
+							<option>March</option>
+							<option>April</option>
+							<option>May</option>
+							<option>June</option>
+							<option>July</option>
+							<option>August</option>
+							<option>September</option>
+							<option>October</option>
+							<option>November</option>
+							<option>December</option>
+						</select>
+						<select class="form__item" name="year" id="year" onclick="addInputStyle('year')"
+							onblur="deleteInputStyle('year')">
+							<option>1991</option>
+							<option>1992</option>
+							<option>1993</option>
+							<option>1994</option>
+							<option>1995</option>
+							<option>1996</option>
+							<option>1997</option>
+							<option>1998</option>
+							<option>1999</option>
+							<option>2000</option>
+							<option>2001</option>
+							<option>2002</option>
+							<option>2003</option>
+							<option>2004</option>
+							<option>2005</option>
+							<option>2006</option>
+							<option>2007</option>
+							<option>2008</option>
+							<option>2009</option>
+							<option>2010</option>
+						</select>
+					</div>
+				</div>
+				<div id="gender-inp" class="form__item input-field-content dflex-cl dflex-ai-fs dflex ">
+					<label>Gender</label>
+					<div class="dflex">
+						<input type="radio" checked id="male" name="gender">
+						<label for="male">Male</label>
+						<input type="radio" name="gender" id="feamale">
+						<label for="feamale">Female</label>
+					</div>
+				</div>
+				<div id="pass-inp" class=" form__item input-field-content dflex-cl dflex dflex-ai-fs ">
+					<label for="pass">Password</label>
+					<input id="pass" type="password" required pattern="[a-zA-Z0-9]{8,20}" maxlength="20" placeholder="&nbsp;"
+						autocomplete="off" onclick="addInputStyle('pass')" onblur="deleteInputStyle('pass')"
+						onchange="validatePasswordValue(),validatePasswordConfirm()">
+				</div>
+				<div id="con-pass-inp" class="form__item input-field-content dflex-cl dflex dflex-ai-fs ">
+					<label for="conf-pass">Confirm Password</label>
+					<input id="conf-pass" type="password" required pattern="[a-zA-Z0-9]{8,20}" maxlength="20" placeholder="&nbsp;"
+						autocomplete="off" onclick="addInputStyle('conf-pass')" onblur="deleteInputStyle('conf-pass')"
+						onchange="validatePasswordValue(),validatePasswordConfirm()">
+				</div>
+				<p class="email-message message unvisible">Введите данные в указанном формате</p>
+				<p class="pass-message message unvisible">Введите данные в указанном формате</p>
+				<p class="pass-message-do-not-match message unvisible">Пароли не совпадают</p>
+			</form>
+			<div class="registered-message unvisible">
+				<h2>Thank You!</h2>
+				<p>you registered!</p>
+			</div>
+			<div class="dflex dflex-ai-cen dflex-jc-cen" id="bottom-content">
+				<p>Have an account?<a>Login</a></p>
+			</div>
+			<button id="form-submit" class="dflex dflex-ai-cen dflex-jc-cen" onclick="sendMessage()"><span>Complete
+					Signup</span></button>
+			<img class="form__bg-img unvisible" src="img/svg/fon-bg.svg" alt="fon">
+		</div>
+	</div>
+</body>
+
+</html>
