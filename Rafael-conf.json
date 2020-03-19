@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "firstname": "Rafael",
+      "lastname": "Miraqyan",
+      "nationality": "Armenian",
+      "email": "mrhshoes@gmail.com",
+      "data": "17 May 1994",
+      "gender": "male",
+      "pass": "12345678",
+      "id": 777
+    }
+  ]
+}
